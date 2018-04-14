@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--In the head shows the links and folders that the html is linked to. The page title is also here.-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Muli:900i" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <h1>"It's Always Sunny in Philadelphia Trivia!"</h1>
+</head>
+
+<body>
+    <!--This is where the jumbotron head is located that spans the whole width of the screen-->
+    <div class="jumbotron jumbotron-fluid"></div>
+    <div class="container">
+        <h2 class="display-4"></h2>
+    </div>
+    <!-- This creates the all-around border -->
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="top"></div>
+    <div id="bottom"></div>
+    <!-- This gives placement and attributes to the timer, questions, answers, and button -->
+    <div class="wrapper">
+
+        <div id="timeRemaining"></div>
+        <div id="questions"></div>
+        <div id="answers"></div>
+        <button class="btn btn-lg" id="start">Press to Play</button>
+
+    </div>
+    <!-- This lilnks everything to my javascript external file -->
+    <script src="../assets/javascript/app.js"></script>
+
+</body>
+</html>

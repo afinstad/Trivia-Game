@@ -1,0 +1,50 @@
+/*Styling the Jumbotron header*/
+.jumbotron {
+/*links the background image to the url - height of img - how it will fill the jumbogtron*/
+    background-image:url('http://cdn.collider.com/wp-content/uploads/its_always_sunny_in_philadelphia_season_six_slice.jpg');
+    height: 200px;
+    background-size: 100% auto;
+    background-position: center;
+    /*used to remove some padding from the jumbotron*/
+    padding: 1em 1em;
+}
+
+body {
+    font-family: 'Muli', sans-serif;
+    text-align: center; 
+    background-color: #FFD700;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+/*Used to add a border around the entire webpage*/
+#top, #bottom, #left, #right {
+	background:#1a1600;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+        #bottom { bottom: 0; }
+
+    
+     /* This allows for the answer options to be in a white, bordered box*/
+        .answerchoice {
+        border: 1px solid black;
+        border-radius: 5%;
+        width: 40%;
+        color: black;
+        text-align: center;
+        margin: 10px auto;
+        font-size: 20px;
+        background-color: white;
+        }
